@@ -10,3 +10,25 @@
 # 7 - Secure Checkout
 # 8 - Wishlist
 # 9 - Product Caching
+
+structure :
+lib/
+│
+├── core/
+│   ├── error/
+│   └── utils/
+│
+├── features/
+│   ├── auth/
+│   │   ├── data/
+│   │   ├── domain/
+│   │   └── presentation/
+│   └── home/
+│       ├── data/
+│       ├── domain/
+│       └── presentation/
+|       ...
+|       ...
+│
+└── main.dart
+
